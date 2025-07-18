@@ -15,71 +15,85 @@
     />
     <!-- Style File -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    /> -->
+    <link rel="stylesheet" href="css/all.css" />
   </head>
   <body>
     <div class="home">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+      <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg align-items-center">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/logo.png" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#main"
+              aria-controls="main"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass nav-icon"></i>
+              </div>
+              <a class="btn rounded-pill main-btn" href="#">Login</a>
+            </div>
           </div>
+        </nav>
+      </div>
+      <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light">
+          <h1>Taste the Creativity</h1>
+          <p class="fs-6 text-white-50 mb-5">
+            We make awesome graphic and web design
+          </p>
+          <a class="btn rounded-pill main-btn" href="#">Get Started</a>
         </div>
-      </nav>
+      </div>
     </div>
+    <!-- Tech start -->
+    <div class="features text-center pt-5 pb-5">
+      <div class="container">
+        <div class="main-title mt-5 mb-5 position-relative">
+          <img src="images/title.png" alt="image" />
+          <h3 class="mt-5 text-black">We are Good at</h3>
+          <p>SOME OF THESE STUFF UNDER</p>
+        </div>
+      </div>
+    </div>
+    <!-- Tech end -->
     <!-- Bootstrap -->
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.js"></script>
   </body>
 </html>
