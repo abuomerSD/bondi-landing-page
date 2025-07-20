@@ -3,6 +3,7 @@
   --white-color: #a8b9c0;
   --green-color: #079496;
   --yellow-color: #ffc400;
+  --bg-green-color: #eff7fa;
 }
 
 body {
@@ -125,6 +126,31 @@ body {
   z-index: 2;
 }
 
+.techs {
+  min-height: 100vh;
+}
+
 .features {
   min-height: 100vh;
+  background-color: var(--bg-green-color);
+}
+
+.list-link {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.tech-square {
+  width: 200px;
+  height: 200px;
+  background-color: var(--green-color);
+  color: white;
+}
+
+.tech-square-white {
+  background-color: var(--white-color);
 }
